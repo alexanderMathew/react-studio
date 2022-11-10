@@ -1,9 +1,62 @@
 /* Add styling for your page here */
-
+*{
+    background-color: beige;
+}
 .App {
+
+}
+.title{
+    margin-left: 25px;
 
 }
 
 .BakeryItem {
-  
+  position: relative;
+  border: 2px;
+  text-align: center;
+  margin-left: 25px;
+  width: 20rem;
+  height: 25rem;
+}
+.image{
+    height:'10rem';
+    width:'20rem';
+}
+.name {
+    font-size: 25px;
+}
+.items{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.cartItem{
+    
+    white-space: nowrap;
+}
+.price {
+    font-size: 18px;
+}
+
+.item-cart-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+   
+    position: absolute; 
+    bottom: 30px;
+    border-radius: 25px;
+    color: white;
+    height: 30px;
+    white-space: nowrap;
+    background-color: olive;
+    right: 30px;
+}
+
+
+.cart {
+    padding: 5rem;
+    width: 15%;
 }
